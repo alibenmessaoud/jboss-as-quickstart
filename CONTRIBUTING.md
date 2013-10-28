@@ -106,9 +106,9 @@ General Guidelines
         kitchensink-ear/ejb/pom.xml ==> `JBoss EAP Quickstart: kitchensink-ear - ejb`
         kitchensink-ear/web/pom.xml ==> `JBoss EAP Quickstart: kitchensink-ear - web`
 
-* The `<artifactId>` in the quickstart `pom.xml` file should follow the template: `jboss-<target-product>-<quickstart-name>`. For example, the `<artifactId>` for the `greeter` quickstart in the AS 7 project is `jboss-as-greeter`. The `<artifactId>` for `errors` quickstart in the Fuse project is `jboss-fuse-errors`.
+* The `<artifactId>` in the quickstart `pom.xml` file should follow the template: `jboss-<target-product>-<quickstart-name>`. For example, the `<artifactId>` for the `greeter` quickstart in the EAP project is `jboss-as-greeter`. The `<artifactId>` for `errors` quickstart in the Fuse project is `jboss-fuse-errors`.
 
-* The JBoss developer Maven repository that contains newly staged artifacts is located at [developer.github.io](developer.github.io). To access these artifacts, you must add the following profile to your `settings.xml` file.
+* The JBoss developer Maven repository that contains newly staged artifacts is located at [developer.github.io](http://jboss-developer.github.io/temp-maven-repo/). To access these artifacts, you must add the following profile to your `settings.xml` file.
 
         <profile>
             <id>jboss-developer-repository</id>
